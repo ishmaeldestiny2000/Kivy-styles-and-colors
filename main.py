@@ -8,7 +8,8 @@ class DroneApp(MDApp):
             text="Hello world!",
             halign="center",
             theme_text_color = "Custom",
-            text_color = (128/255, 108/255 ,238/255 , 1)
+            text_color = (128/255, 108/255 ,238/255 , 1),
+            font_style = "H6"
         )
         return label
 
